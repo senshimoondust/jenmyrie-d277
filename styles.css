@@ -1,0 +1,135 @@
+/* This is the main page */
+
+#homepage {
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
+  color: #27296d;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+cite {
+  font-size: 12px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+.state-image {
+  float: right;
+  margin: 80px;
+}
+
+img {
+  margin: 5px;
+  border: 1px solid #233142;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 12px;
+}
+
+.heading {
+  text-align: center;
+  padding: 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 20px;
+}
+
+#table {
+  position: relative;
+  height: 200px;
+  width: 800px;
+  left: 400px;
+  bottom: 0%;
+}
+
+a:hover {
+  color: #a56cc1;
+}
+
+.submit {
+  border: 1px solid #233142;
+  border-radius: 5px;
+  background-color: #27296d;
+  color: #f2f2f2;
+  padding: 8px;
+}
+
+.number-list {
+  position: absolute;
+  left: 800px;
+  bottom: 200px;
+}
+
+.submit:hover {
+  background-color: #a56cc1;
+  color: #27296d;
+}
+
+/* This is the Albany Page */
+
+#capital-page {
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
+  color: #27296d;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* This is the NYC page */
+
+#nyc-page {
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
+  color: #27296d;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* This is the Buffalo page */
+
+#buffalo-page {
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
+  color: #27296d;
+  font-family: "Courier New", Courier, monospace;
+}

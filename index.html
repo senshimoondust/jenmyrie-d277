@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <title>U.S State</title>
+  </head>
+  <body id="homepage">
+    <!-- This is the heading. -->
+
+    <header class="heading">
+      <h1>New York State</h1>
+      <nav class="links">
+        <a href="index.html" target="_blank">Home</a>
+        <a href="index-two.html" target="_blank">The Capital: Albany</a>
+        <a href="index-three.html" target="_blank">City #1: New York City</a>
+        <a href="index-four.html" target="_blank">City #2: Buffalo</a>
+      </nav>
+      <br />
+      <hr />
+      <img
+        src="images/newyorkstate.jpg"
+        alt="State Image"
+        class="state-image"
+        width="400px"
+      />
+    </header>
+
+    <!-- This is the main content. -->
+    <section class="main">
+      <h2>New York</h2>
+      <p>Welcome to the Empire State!</p>
+      <p>New York is located in the Northeast United States.</p>
+      <br />
+      <p>The population in New York is about 19,677,151</p>
+      <p>New York was admitted into union on July 26, 1788.</p>
+      <p>The average household income in New York state is <em>$75,157.</em></p>
+      <br />
+
+      <!-- This is the aside content. -->
+      <aside>
+        You can visit the official New York State website for more information.
+        <br />
+        <a href="https://www.ny.gov/" target="_blank">New York State Website</a>
+      </aside>
+      <br />
+      <h3>References</h3>
+      <cite
+        >https://datausa.io/profile/geo/new-york,<br />
+        https://en.wikipedia.org/wiki/New_York_(state)</cite
+      >
+      <hr />
+      <!--This is the form.-->
+      <form id="form">
+        <p>
+          <label for="first">First Name: </label>
+          <input
+            type="text"
+            name="first"
+            id="first"
+            placeholder="Enter here"
+            required
+          />
+        </p>
+        <p>
+          <label for="last" placeholder="Enter here">Last Name: </label>
+          <input
+            type="text"
+            name="last"
+            id="last"
+            placeholder="Enter here"
+            required
+          />
+        </p>
+        <p>
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            id="email"
+            placeholder="name@domain.com"
+            required
+          />
+        </p>
+        <p>
+          <label for="confirm-email"> Confirm Email: </label>
+          <input
+            type="confirm-email"
+            id="confirm-email"
+            placeholder="name@domain.com"
+            required
+          />
+        </p>
+        <p>
+          <button class="submit" type="submit">Submit</button>
+        </p>
+        <p>
+          <label for="question-box">Question Box: </label>
+          <input
+            type="text"
+            id="question-box"
+            name="question"
+            placeholder="Questions?"
+          />
+        </p>
+      </form>
+    </section>
+
+    <!-- This is JS code -->
+    <script src="app.js"></script>
+    <!-- This is the footer.-->
+    <footer>Coded By Jennifer C. Myrie</footer>
+  </body>
+</html>
